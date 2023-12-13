@@ -493,7 +493,7 @@ class FrankaCube(VecTask):
     def _reset_init_cube_state(self, env_ids):
         """
         Simple method to sample @cube's position based on self.startPositionNoise and self.startRotationNoise, and
-        automaticlly reset the pose internally.
+        automatically reset the pose internally.
 
         Args:
             env_ids (tensor or None): Specific environments to reset cube for
